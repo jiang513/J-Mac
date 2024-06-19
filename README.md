@@ -9,7 +9,7 @@ conda activate dmcgb
 sh ./setup/install_envs.sh
 ```
 ## Datasets
-Part of this repository relies on external datasets. SVEA uses the [Places](wget http://data.csail.mit.edu/places/places365/places365standard_easyformat.tar) dataset for data augmentation, which can be downloaded by running
+Part of this repository relies on external datasets. SVEA uses the [Places] (wget http://data.csail.mit.edu/places/places365/places365standard_easyformat.tar) dataset for data augmentation, which can be downloaded by running
 ```
 wget http://data.csail.mit.edu/places/places365/places365standard_easyformat.tar
 ```
