@@ -8,6 +8,11 @@ conda env create -f ./setup/conda.yaml
 conda activate dmcgb
 sh ./setup/install_envs.sh
 ```
+## Datasets
+Part of this repository relies on external datasets. SVEA uses the Places dataset for data augmentation, which can be downloaded by running
+```
+[wget http://data.csail.mit.edu/places/places365/places365standard_easyformat.tar](wget http://data.csail.mit.edu/places/places365/places365standard_easyformat.tar)
+```
 ## Training & Evaluation
 In the `DMC-GB` and `VB-RMB` directories, `scripts` directories contain bash scripts for **SVEA-J-Mac** and **DrQ-J-Mac**, which can be run by `sh /DMC-GB/scripts/svea-J-Mac.sh` and `sh /VB-RMB/scripts/DrQ-J-Mac.sh` respectively.
 
